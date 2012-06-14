@@ -13,7 +13,7 @@ import expr.subsetc.SubsetParser.Terminals;
 %type Symbol
 %yylexthrow Scanner.Exception
 %eofval{
-        return newToken(Terminals.EOF, "end-of-file");
+        return newToken(Terminals.EOF, "yo - end-of-file");
 %eofval}
 %unicode
 %line
@@ -41,4 +41,6 @@ Number = [:digit:] [:digit:]*
 <YYINITIAL> {
           {Number} { return newToken(Terminals.NUMBER, new Integer(yytext())); }
 }
+
+"a"     {return newToken(Terminals.ID);}
 . | \n  {throw new Scanner.Exception("unexpected character '"+ yytext() +"'"); }

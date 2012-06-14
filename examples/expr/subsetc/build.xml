@@ -1,4 +1,4 @@
-<project name="Program" default="help">
+<project name="Expr" default="help">
 
 	<property file="../../build.properties"/>
 
@@ -40,7 +40,7 @@
 
 	<target name="clean" description="remove compiled files">
 		<delete>
-			<fileset dir="." includes="*.class,*.java,*.spec,*.*~" excludes="SubsetC.java,Subset.java"/>
+			<fileset dir="." includes="*.class,*.java,*.spec,*.*~" excludes="SubsetC.java, Expr.java"/>
 		</delete>
 	</target>
 
