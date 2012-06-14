@@ -1,0 +1,44 @@
+%package "expr.subsetc";
+%class "SubsetParser";
+
+%terminals NUMBER, MAIN, ID, INT, FLOAT, CHAR, DOUBLE, LPAREN, RPAREN, LBRACE, RBRACE, MULT, DIV, PLUS, MINUS, VOID, SEMI, ASSIGN;
+
+%left RPAREN;
+
+%typeof NUMBER = "Number";
+%typeof program = "Program";
+
+%goal program;
+
+program 
+        = return_type MAIN LPAREN arguments RPAREN LBRACE
+          statement_list RBRACE
+        ;
+
+return_type 
+        =   INT 
+          | VOID
+        ;
+
+arguments
+        = 
+        ;
+
+statement_list = 
+                 statement statement_list
+               | statement 
+               ;
+statement =
+            decl_statement 
+          
+          ;
+
+decl_statement = 
+                 type ID ASSIGN NUMBER SEMI
+           ;
+
+type = INT 
+     | FLOAT
+     | CHAR
+     | DOUBLE
+     ;

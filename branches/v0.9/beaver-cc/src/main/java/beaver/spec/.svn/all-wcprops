@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/beaver/!svn/ver/109/branches/v0.9/beaver-cc/src/main/java/beaver/spec
+END
+GrammarBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svnroot/beaver/!svn/ver/109/branches/v0.9/beaver-cc/src/main/java/beaver/spec/GrammarBuilder.java
+END
+Grammar.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svnroot/beaver/!svn/ver/107/branches/v0.9/beaver-cc/src/main/java/beaver/spec/Grammar.java
+END
+NonTerminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svnroot/beaver/!svn/ver/107/branches/v0.9/beaver-cc/src/main/java/beaver/spec/NonTerminal.java
+END
+Production.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svnroot/beaver/!svn/ver/107/branches/v0.9/beaver-cc/src/main/java/beaver/spec/Production.java
+END
+Terminal.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svnroot/beaver/!svn/ver/107/branches/v0.9/beaver-cc/src/main/java/beaver/spec/Terminal.java
+END
+GrammarSymbol.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svnroot/beaver/!svn/ver/107/branches/v0.9/beaver-cc/src/main/java/beaver/spec/GrammarSymbol.java
+END
